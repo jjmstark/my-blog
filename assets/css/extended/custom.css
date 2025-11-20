@@ -1,58 +1,60 @@
 /* Custom CSS for your blog */
 /* This file will be automatically included by PaperMod */
 
-/* Custom link colors */
-
-/* Light mode - default blue links */
+/* Reset CSS custom properties to not affect text */
 :root {
-    --primary: #0000EE;
-    --secondary: #0000EE;
+    /* Don't set --primary here as it affects more than just links */
 }
 
-/* Dark mode - orange links */
+/* Dark mode - don't set --primary here either */
 [data-theme="dark"] {
-    --primary: #ff8c00;
-    --secondary: #ffa500;
+    /* Don't set --primary here as it affects more than just links */
 }
 
-/* Auto mode (respects system preference) */
+/* Auto mode - don't set --primary here either */
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-        --primary: #ff8c00;
-        --secondary: #ffa500;
+        /* Don't set --primary here as it affects more than just links */
     }
 }
 
-/* Light mode - ensure regular text stays default color */
-body {
-    color: var(--content);
+/* Ensure regular text uses default theme colors */
+body, p, div, span {
+    color: inherit !important;
 }
 
-/* Light mode - only actual links should be blue */
-a {
+/* Light mode - ONLY actual link elements should be blue */
+a, a:visited {
+    color: #0000EE !important;
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
     color: #0000EE !important;
 }
 
-a:hover {
-    color: #0000EE !important;
-}
-
-/* Dark mode - orange links only */
-[data-theme="dark"] a {
+/* Dark mode - ONLY actual link elements should be orange */
+[data-theme="dark"] a,
+[data-theme="dark"] a:visited {
     color: #ff8c00 !important;
+    text-decoration: underline;
 }
 
-[data-theme="dark"] a:hover {
+[data-theme="dark"] a:hover,
+[data-theme="dark"] a:focus {
     color: #ffa500 !important;
 }
 
-/* Auto mode specific targeting - only links */
+/* Auto mode for dark preference - ONLY actual link elements */
 @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) a {
+    :root:not([data-theme="light"]) a,
+    :root:not([data-theme="light"]) a:visited {
         color: #ff8c00 !important;
+        text-decoration: underline;
     }
     
-    :root:not([data-theme="light"]) a:hover {
+    :root:not([data-theme="light"]) a:hover,
+    :root:not([data-theme="light"]) a:focus {
         color: #ffa500 !important;
     }
 }
