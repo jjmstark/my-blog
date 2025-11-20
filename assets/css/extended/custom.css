@@ -5,8 +5,8 @@
 
 /* Light mode - default blue links */
 :root {
-    --primary: #0066cc;
-    --secondary: #004499;
+    --primary: #0000EE;
+    --secondary: #0000EE;
 }
 
 /* Dark mode - orange links */
@@ -20,5 +20,37 @@
     :root:not([data-theme="light"]) {
         --primary: #ff8c00;
         --secondary: #ffa500;
+    }
+}
+
+/* More specific targeting for links in dark mode */
+[data-theme="dark"] a,
+[data-theme="dark"] .post-entry a,
+[data-theme="dark"] .entry-content a,
+[data-theme="dark"] .post-content a {
+    color: #ff8c00 !important;
+}
+
+[data-theme="dark"] a:hover,
+[data-theme="dark"] .post-entry a:hover,
+[data-theme="dark"] .entry-content a:hover,
+[data-theme="dark"] .post-content a:hover {
+    color: #ffa500 !important;
+}
+
+/* Auto mode specific targeting */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) a,
+    :root:not([data-theme="light"]) .post-entry a,
+    :root:not([data-theme="light"]) .entry-content a,
+    :root:not([data-theme="light"]) .post-content a {
+        color: #ff8c00 !important;
+    }
+    
+    :root:not([data-theme="light"]) a:hover,
+    :root:not([data-theme="light"]) .post-entry a:hover,
+    :root:not([data-theme="light"]) .entry-content a:hover,
+    :root:not([data-theme="light"]) .post-content a:hover {
+        color: #ffa500 !important;
     }
 }
