@@ -96,6 +96,11 @@ a:hover, a:focus {
     }
 }
 
+/* Homepage background color */
+.home body {
+    background-color: #ffffff !important;
+}
+
 /* Homepage logo styling */
 .homepage-logo {
     margin-top: 5rem;
