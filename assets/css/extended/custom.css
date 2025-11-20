@@ -1,0 +1,24 @@
+/* Custom CSS for your blog */
+/* This file will be automatically included by PaperMod */
+
+/* Custom link colors */
+
+/* Light mode - default blue links */
+:root {
+    --primary: #0066cc;
+    --secondary: #004499;
+}
+
+/* Dark mode - orange links */
+[data-theme="dark"] {
+    --primary: #ff8c00;
+    --secondary: #ffa500;
+}
+
+/* Auto mode (respects system preference) */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --primary: #ff8c00;
+        --secondary: #ffa500;
+    }
+}
