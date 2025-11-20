@@ -101,13 +101,44 @@ a:hover, a:focus {
     background-color: #ffffff !important;
 }
 
-/* Homepage logo styling */
-.homepage-logo {
+/* Homepage header container */
+.homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 5rem;
     margin-bottom: 2rem;
+}
+
+/* Homepage logo styling */
+.homepage-logo {
     text-align: left;
 }
 
 .homepage-logo img {
     display: block;
+}
+
+/* Homepage theme toggle styling */
+.homepage-theme-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.homepage-theme-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.homepage-theme-toggle button:hover {
+    background-color: var(--theme-hover);
+}
+
+.homepage-theme-toggle svg {
+    width: 20px;
+    height: 20px;
 }
