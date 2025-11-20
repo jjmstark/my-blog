@@ -152,3 +152,35 @@ body.list,
     width: 20px;
     height: 20px;
 }
+
+/* Post page styling customizations */
+
+/* Hide navigation menu on post pages */
+.nav #menu { 
+    display: none !important; 
+}
+
+/* Hide breadcrumbs */
+.breadcrumbs { 
+    display: none !important; 
+}
+
+/* Increase post title size */
+.post-title { 
+    font-size: 3rem !important; 
+}
+
+/* Hide post footer elements */
+.post-footer { 
+    display: none !important; 
+}
+
+/* Hide social share buttons */
+.share-buttons { 
+    display: none !important; 
+}
+
+/* Hide previous/next post navigation */
+.post-nav-links { 
+    display: none !important; 
+}
