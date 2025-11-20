@@ -184,3 +184,8 @@ body.list,
 .post-nav-links { 
     display: none !important; 
 }
+
+/* Hide anchor links on headings */
+.anchor {
+    display: none !important;
+}
