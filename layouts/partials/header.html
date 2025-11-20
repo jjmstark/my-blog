@@ -1,5 +1,6 @@
 <header class="header">
     <nav class="nav">
+        {{- if not .IsHome }}
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range site.Menus.main }}
@@ -14,5 +15,6 @@
             </li>
             {{- end }}
         </ul>
+        {{- end }}
     </nav>
 </header>
