@@ -5,7 +5,7 @@ theme = 'PaperMod'
 
 [params]
   env = "production"
-  title = "0xStark"
+  title = ""
   description = "Welcome to my personal blog"
   keywords = ["blog", "personal", "hugo"]
   author = "Josh Stark"
