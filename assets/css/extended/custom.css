@@ -165,8 +165,8 @@ body.list,
     display: none !important; 
 }
 
-/* Increase post title size */
-.post-title { 
+/* Increase post title size only on individual post pages */
+.post-single .post-title { 
     font-size: 3rem !important; 
 }
 
