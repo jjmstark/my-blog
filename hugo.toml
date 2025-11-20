@@ -1,0 +1,44 @@
+baseURL = 'https://joshstark.github.io/my-blog/'
+languageCode = 'en-us'
+title = 'Josh Stark Blog'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  title = "Josh Stark Blog"
+  description = "Welcome to my personal blog"
+  keywords = ["blog", "personal", "hugo"]
+  author = "Josh Stark"
+  
+  # Theme settings
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  
+  # Home page settings
+  homeInfoParams.Title = "Welcome to Josh Stark's Blog"
+  homeInfoParams.Content = "Thoughts, tutorials, and insights on technology and development."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/joshstark"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+    
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
