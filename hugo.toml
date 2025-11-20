@@ -1,11 +1,11 @@
 baseURL = 'https://jjmstark.github.io/my-blog/'
 languageCode = 'en-us'
-title = 'Josh Stark Blog'
+title = '0xStark'
 theme = 'PaperMod'
 
 [params]
   env = "production"
-  title = "Josh Stark Blog"
+  title = "0xStark"
   description = "Welcome to my personal blog"
   keywords = ["blog", "personal", "hugo"]
   author = "Josh Stark"
@@ -23,8 +23,8 @@ theme = 'PaperMod'
   ShowRssButtonInSectionTermList = true
   
   # Home page settings
-  homeInfoParams.Title = "Welcome to Josh Stark's Blog"
-  homeInfoParams.Content = "Thoughts, tutorials, and insights on technology and development."
+  homeInfoParams.Title = "About"
+  homeInfoParams.Content = "I'm Josh Stark, and I work for [Ethereum](https://ethereum.org/) at the [Ethereum Foundation](https://ethereum.foundation/) where I serve on the management team. Previously I co-founded [ETHGlobal](https://ethglobal.com/) and [L4](https://x.com/L4ventures/status/1006543147290292224?s=20)"
 
 [[params.socialIcons]]
   name = "github"
