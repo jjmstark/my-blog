@@ -173,23 +173,35 @@ body.list,
 
 /* Post page styling customizations */
 
-/* Hide navigation menu on post pages, but keep theme toggle visible */
+/* Theme toggle for post pages */
+.post-theme-toggle {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1000;
+}
+
+.post-theme-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.post-theme-toggle button:hover {
+    background-color: var(--theme-hover);
+}
+
+.post-theme-toggle svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Hide navigation menu on post pages */
 .nav #menu { 
     display: none !important; 
-}
-
-/* Show the header and theme toggle on post pages */
-.post-single .header {
-    display: block !important;
-}
-
-.post-single .nav {
-    display: flex !important;
-    justify-content: space-between !important;
-}
-
-.post-single .logo-switches {
-    display: flex !important;
 }
 
 /* Hide breadcrumbs */
