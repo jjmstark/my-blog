@@ -220,6 +220,16 @@ body.list,
     margin-bottom: 1.5rem !important;
 }
 
+/* Equal spacing between title, description, and metadata */
+.post-single .post-description {
+    margin-top: 0 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.post-single .post-meta {
+    margin-top: 0 !important;
+}
+
 /* Hide post footer elements */
 .post-footer { 
     display: none !important; 
