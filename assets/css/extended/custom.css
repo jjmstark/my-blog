@@ -173,9 +173,23 @@ body.list,
 
 /* Post page styling customizations */
 
-/* Hide navigation menu on post pages */
+/* Hide navigation menu on post pages, but keep theme toggle visible */
 .nav #menu { 
     display: none !important; 
+}
+
+/* Show the header and theme toggle on post pages */
+.post-single .header {
+    display: block !important;
+}
+
+.post-single .nav {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.post-single .logo-switches {
+    display: flex !important;
 }
 
 /* Hide breadcrumbs */
