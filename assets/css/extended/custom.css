@@ -214,9 +214,10 @@ body.list,
     display: none !important; 
 }
 
-/* Increase post title size only on individual post pages */
+/* Adjust post title size and spacing */
 .post-single .post-title { 
-    font-size: 3rem !important; 
+    font-size: 2.5rem !important;
+    margin-bottom: 1.5rem !important;
 }
 
 /* Hide post footer elements */
