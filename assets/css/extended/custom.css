@@ -175,10 +175,9 @@ body.list,
 
 /* Theme toggle for post pages */
 .post-theme-toggle {
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
 }
 
 .post-theme-toggle button {
