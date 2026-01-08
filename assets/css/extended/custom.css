@@ -173,11 +173,17 @@ body.list,
 
 /* Post page styling customizations */
 
-/* Theme toggle for post pages */
+/* Theme toggle and home link for post pages */
 .post-theme-toggle {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 1.5rem;
+}
+
+.post-home-link {
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 .post-theme-toggle button {

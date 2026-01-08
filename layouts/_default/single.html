@@ -2,9 +2,10 @@
 
 <article class="post-single">
   <header class="post-header">
-    {{- /* Theme toggle for post pages */ -}}
-    {{- if (not site.Params.disableThemeToggle) }}
+    {{- /* Home link and theme toggle for post pages */ -}}
     <div class="post-theme-toggle">
+      <a href="{{ "" | absLangURL }}" class="post-home-link">Home</a>
+      {{- if (not site.Params.disableThemeToggle) }}
       <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
         <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -25,8 +26,8 @@
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
         </svg>
       </button>
+      {{- end }}
     </div>
-    {{- end }}
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">
       {{ .Title }}
