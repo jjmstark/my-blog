@@ -1,22 +1,14 @@
 +++
 title = "Introduction to Smart (legal?) Contracts"
-date = 2025-11-14T14:17:47.363402
+date = 2016-04-11T14:17:47.363402
 draft = false
 
 [params.cover]
-image = "acb1f3aa-490b-4898-864b-3024ec0cdc8a.png"
+image = ""
 alt = "Introduction to Smart (legal?) Contracts — Josh Stark"
 caption = "Introduction to Smart (legal?) Contracts — Josh Stark"
 +++
 
-
-Introduction to Smart (legal?) Contracts
-
-Josh Stark
-
-0x4aa9
-
-September 17th, 2021
 
 *👋 Note: Originally published in April 2016 on [Coindesk](https://www.coindesk.com/markets/2016/04/11/how-close-are-smart-contracts-to-impacting-real-world-law/) and [Medium](https://jjmstark.medium.com/introduction-to-smart-contracts-part-1-8f191a324d0a).*
 
