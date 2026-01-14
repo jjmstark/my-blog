@@ -2,7 +2,7 @@
 title = "What was Bitcoin's total transaction volume in 2021?"
 date = 2022-04-26T12:00:00
 description = ""
-tags = "bitcoin, ethereum"
+tags = ["bitcoin", "ethereum"]
 draft = false
 +++
 
