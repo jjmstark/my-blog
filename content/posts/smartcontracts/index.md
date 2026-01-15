@@ -1,5 +1,5 @@
 +++
-title = "Part 2 — Making Sense of Smart Contracts"
+title = "Making Sense of Smart Contracts"
 date = 2016-06-15T00:00:00
 description = "Understanding the different definitions and uses of smart contracts"
 tags = ["smart-contracts", "ethereum", "blockchain", "law"]

@@ -6,7 +6,7 @@ tags = ["hardness", "ethereum"]
 draft = false
 
 [params.cover]
-image = "hardness-cover.jpeg"
+image = "hardness_cover.jpeg"
 alt = "What do we want our civilization to be made of?"
 caption = ""
 +++
