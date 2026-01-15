@@ -24,9 +24,13 @@ This is meant to be very broad, including informal agreements, legal contracts, 
 
 Now, let's imagine a space that contains all possible economic relationships, and put some points on a graph.
 
+![Economic relationships space diagram](diagram1.png)
+
 This space includes not just all economic relationships that we're familiar with or which are even used, but every possible economic relationship that could exist.
 
 In reality, only some of this graph is available to us. Let's draw a line to indicate which economic relationships are actually possible today.
+
+![Economic relationships space diagram](diagram2.png)
 
 Every economic relationship currently used by human beings (not just the ones we have highlighted as examples) is in this section. Every kind of purchase, corporate structure, debt instrument, store of value, and medium of exchange is somewhere inside that shape.
 
@@ -37,6 +41,8 @@ We only have access to these economic relationships because these are the only o
 ## Blockchains Expand the Frontier
 
 Recently, the invention of blockchain technology has expanded the frontier of this space. Now it probably looks a lot weirder — maybe something like this:
+
+![Economic relationships space diagram](diagram3.png)
 
 Blockchains let us do things that weren't possible before:
 
