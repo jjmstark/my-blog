@@ -7,8 +7,8 @@ draft = false
 
 [params.cover]
 image = "cover.png"
-alt = "The Roman Aqueduct at Segovia, an early marvel of engineering"
-caption = ""
+alt = ""
+caption = "The Roman Aqueduct at Segovia, an early marvel of engineering"
 +++
 
 A few months ago Parker Thompson, a well known Silicon Valley VC, [tweeted](https://twitter.com/pt/status/871473661101850624) that "the concept of crypto-economics is stupid. It's economics. Inventing your own word is just an excuse to ignore well-understood concepts."
