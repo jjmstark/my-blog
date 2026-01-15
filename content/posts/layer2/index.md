@@ -7,8 +7,8 @@ draft = false
 
 [params.cover]
 image = "cover.png"
-alt = "Construction of the Tunkhannock Viaduct railway bridge in Pennsylvania (cc). Roman engineering principles being extended to new uses."
-caption = ""
+alt = ""
+caption = "Construction of the Tunkhannock Viaduct railway bridge in Pennsylvania (cc). Roman engineering principles being extended to new uses."
 
 +++
 
