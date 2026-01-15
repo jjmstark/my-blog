@@ -4,6 +4,12 @@ date = 2018-06-06T00:00:00
 description = "A vision of the internet reformed through decentralized technologies"
 tags = ["web3", "ethereum", "blockchain", "decentralization"]
 draft = false
+
+[params.cover]
+image = "cover.png"
+alt = ""
+caption = ""
+
 +++
 
 The internet is changing again.
