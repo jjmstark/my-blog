@@ -12,6 +12,8 @@ caption = "The Year in Ethereum 2018"
 
 +++
 
+*By Josh Stark & Evan Van Ness*
+
 **Ethereum began as a bold experiment.** Can we build a universal platform for digital money and assets, un-censorable applications, and decentralized organizations?
 
 We started with a slightly smaller experiment: was it possible to launch a blockchain that could execute arbitrary programs? Over time, the Ethereum community began new experiments. Would developers find it interesting? What applications are actually useful? The community learned from its successes and failures, and iterated on their work. New people joined the community and started running their own experiments.
