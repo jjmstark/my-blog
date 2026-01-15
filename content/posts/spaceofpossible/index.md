@@ -1,6 +1,6 @@
 +++
 title = "The Space of Possible Economic Relationships"
-date = 2018-07-26T00:00:00
+date = 2017-06-07T00:00:00
 description = "How blockchains expand the frontier of possible economic relationships"
 tags = ["blockchain", "ethereum", "economics"]
 draft = false
