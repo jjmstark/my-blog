@@ -1,16 +1,25 @@
 +++
 title = "5. Companies, Code, and Generic Marketplaces"
 date = 2016-02-22T00:00:00
-description = "Can we write code that can compete with services today only offered by companies?"
+description = ""
 tags = ["bitcoin", "blockchain", "ethereum"]
 draft = false
+
+[params.cover]
+image = "cover.png"
+alt = ""
+caption = "AirBnB’s offices in SF"
 +++
+
+*Note: initially published on [Medium](https://medium.com/@creole/5-companies-code-and-generic-marketplaces-940fb1b4c76e#.loqwiarhu) under the pseudonym Creole*
 
 In the third post, we explored how blockchains can serve as a platform for what I called "value technologies" — things that act like currencies, shares, or rewards points.
 
 In this post, we take this idea further. Many people now believe that blockchains will let us build things more complex and more interesting than the simple value technologies discussed above. We can write software that can itself control currencies, shares, or rewards points. This "software agent" would be more like an independent economic entity. Living on the blockchain, it would be able to send, receive, or hold money — whatever it was programmed to do. Maybe it even provides a useful service to people, or to other software, for which it is paid.
 
 The question people have begun to ask, in other words, is: can we make companies out of code?
+
+---
 
 Ok, let's back up. What would it mean for there to be software that "lives" on a blockchain?
 
@@ -25,6 +34,9 @@ This is the idea behind another blockchain called Ethereum. It comes with a "bui
 A software agent can "live" on the Ethereum blockchain in the sense that the code that constitutes it is stored on the blockchain. Because there is always consensus on the state of the blockchain — just like there is always consensus on the state of who owns what bitcoin — the program will always behave as functioned. It cannot be altered or deleted unless it was programmed to allow it to be altered or deleted. Once it's on the blockchain, it can be autonomous — it doesn't depend on any individual computer to survive. It exists on thousands of computers all over the world, and every copy is kept in perfect sync by the blockchain.
 
 Crucially, for our purposes, these software agents can natively control money. In the case of Ethereum, they can control balances of Ether, the native token of that blockchain. They can also control other smart agents, or any other program on the blockchain. In short, they can be programmed to perform any operation that people can perform within the Ethereum system.
+
+![“Syndics of the Drapers’ Guild”, Rembrandt](image1.png)
+*“Syndics of the Drapers’ Guild”, Rembrandt*
 
 In the first post, we discussed how blockchain technology might cut out middlemen. Firms like Western Union sit in the middle of a simple transaction — moving money from A to B — and extract a fee. Bitcoin, by letting anyone anywhere send money for free, can compete with the service provided by Western Union.
 
