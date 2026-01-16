@@ -1,13 +1,13 @@
 +++
 title = "Ethereum's distinctive property is hardness"
 date = 2024-11-04T12:00:00
-description = "test"
+description = "What do we want our civilization to be made of?"
 tags = ["hardness", "ethereum"]
 draft = false
 
 [params.cover]
 image = "hardness_cover.png"
-alt = "What do we want our civilization to be made of?"
+alt = ""
 caption = ""
 +++
 
