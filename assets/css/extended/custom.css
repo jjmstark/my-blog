@@ -86,44 +86,19 @@ a:hover, a:focus {
     padding: 0;
 }
 
-/* Year-based color cycling for dates - Light mode */
-.post-date.year-cycle-0 {
-    color: #000000 !important;
-}
 
-.post-date.year-cycle-1 {
+/* Post date styling - light gray in all modes */
+.post-date {
     color: #9ca3af !important;
 }
 
-/* Dark mode date colors */
-[data-theme="dark"] .post-date.year-cycle-0 {
-    color: #ffffff !important;
-}
-
-[data-theme="dark"] .post-date.year-cycle-1 {
-    color: #9ca3af !important;
-}
-
-/* Auto mode for dark preference */
-@media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .post-date.year-cycle-0 {
-        color: #ffffff !important;
-    }
-
-    :root:not([data-theme="light"]) .post-date.year-cycle-1 {
-        color: #9ca3af !important;
-    }
-}
-
-/* Fallback for default dark mode date color */
 [data-theme="dark"] .post-date {
-    color: var(--secondary);
+    color: #9ca3af !important;
 }
 
-/* Auto mode date color */
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) .post-date {
-        color: var(--secondary);
+        color: #9ca3af !important;
     }
 }
 
