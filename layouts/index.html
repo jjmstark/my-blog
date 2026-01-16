@@ -50,7 +50,7 @@
 <div class="simple-post-list">
   {{- range $paginator.Pages }}
   <div class="post-line">
-    <span class="post-date year-cycle-{{ mod (.Date.Year) 3 }}">{{ .Date | time.Format "2006-01-02" }}</span>
+    <span class="post-date year-cycle-{{ mod (.Date.Year) 2 }}">{{ .Date | time.Format "2006-01-02" }}</span>
     <a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a>
   </div>
   {{- end }}
