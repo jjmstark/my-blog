@@ -1,12 +1,18 @@
 +++
 title = "Pong, not Programs"
 date = 2021-06-07T00:00:00
-description = "A thought experiment about the history of computing on an alternate Earth"
+description = ""
 tags = ["technology", "history", "computing", "thought-experiment"]
 draft = false
+
+
+[params.cover]
+image = "cover.png"
+alt = ""
+caption = "Image: Rob Boudon - Creative Commons"
+
 +++
 
-![post image](cover.png)
 
 On Earth 2 history took a slightly different course.
 
