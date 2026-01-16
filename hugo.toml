@@ -25,7 +25,7 @@ theme = 'PaperMod'
   
   # Home page settings
   homeInfoParams.Title = "About"
-  homeInfoParams.Content = "This is the website of **Josh Stark** where I write about Ethereum, blockchains, and the futures we can build with them. I am particularly interested in understanding and articulating why blockchains can be worthy of trust, and how this proprety can be compared existing infrastructure. \n\n&nbsp;\n\nI work for [Ethereum](https://ethereum.org/) at the [Ethereum Foundation](https://ethereum.foundation/) as a member of the management team. Previously I co-founded [ETHGlobal](https://ethglobal.com/) and [L4](https://x.com/L4ventures/status/1006543147290292224?s=20).\n\n&nbsp;\n\n[X](https://x.com/0xstark) | [Farcaster](https://farcaster.xyz/0xstark.eth)"
+  homeInfoParams.Content = "This is the website of **Josh Stark** where I write about Ethereum, blockchains, and the futures we can build with them. I am particularly interested in understanding and articulating why blockchains can be worthy of trust, and how this proprety can be compared to existing infrastructure. \n\n&nbsp;\n\nI work for [Ethereum](https://ethereum.org/) at the [Ethereum Foundation](https://ethereum.foundation/) as a member of the management team. Previously I co-founded [ETHGlobal](https://ethglobal.com/) and [L4](https://x.com/L4ventures/status/1006543147290292224?s=20).\n\n&nbsp;\n\n[X](https://x.com/0xstark) | [Farcaster](https://farcaster.xyz/0xstark.eth)"
 
 
 [menu]
