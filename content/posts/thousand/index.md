@@ -1,12 +1,18 @@
 +++
-title = "4. A Thousand Little Central Banks"
+title = "A Thousand Little Central Banks"
 date = 2015-12-04T00:00:00
-description = "A future where rewards points become tradable currencies managed by smart wallets"
+description = "A short crypto-scifi story about rewards points programs & smart wallets"
 tags = ["bitcoin", "blockchain", "ethereum"]
 draft = false
+
+
+[params.cover]
+image = "cover.png"
+alt = ""
+caption = "Photo by [Thibault Poriel](https://www.flickr.com/photos/thibaultporiel/) licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
 +++
 
-*Photo by [Thibault Poriel](https://www.flickr.com/photos/thibaultporiel/) licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)*
+*Note: initially published on [Medium](https://medium.com/@creole/4-a-thousand-little-central-banks-28a26de8ed17#.av6htjl1q) under the pseudonym Creole*
 
 You're a little early for work that day and decide to walk to the far Starbucks instead of going to the close Starbucks. The close Starbucks is one of those ones they cram into a rough corner of an office building, halfway between the fire exit and a fern. The far Starbucks is glass and wood and gleaming like a Starbucks should. You arrive and wait in line to buy a coffee.
 
